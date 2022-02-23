@@ -1,4 +1,5 @@
 @ARM assembly
+@A simple program that asks the user his name and gives a greeting
 
 .text
 .global _start
