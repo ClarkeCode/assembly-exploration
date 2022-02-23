@@ -8,7 +8,7 @@
 _start:
 	MOV R7, #4       @ write syscall
 	MOV R0, #1       @ output to console
-	MOV R2, #24      @ length of message
+	MOV R2, #25      @ length of message
 	LDR R1, =message
 	SWI 0
 
@@ -18,4 +18,4 @@ end:
 
 .data
 message:
-	.asciz "Hello (assembled) world!\n\r"
+	.asciz "Hello (assembled) world!\n"
